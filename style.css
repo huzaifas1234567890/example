@@ -4,6 +4,7 @@
     font-family: sans-serif;
     text-decoration: none;
     list-style: none;
+    -webkit-tap-highlight-color: transparent;
 }
 nav{
     background: #0082e6;
