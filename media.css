@@ -1,0 +1,191 @@
+@media (max-width:1124px) {
+.dtl{
+    width: 600px;
+}
+.name{
+    font-size: 50px;
+}
+.intro h1{
+font-size: 30px;
+margin-right: 8px;
+}
+.intro span{
+    font-size: 30px;
+}
+.dtl{
+    font-size: 18px;
+}
+.photo{
+    height: 300px;
+    width: 300px;
+}
+img{
+    height: 300px;
+}
+}
+@media (max-width:992px) {
+    .dtl{
+    width: 500px;
+}
+.name{
+    font-size: 50px;
+}
+.intro h1{
+font-size: 25px;
+margin-right: 8px;
+}
+.intro span{
+    font-size: 25px;
+}
+.dtl{
+    font-size: 18px;
+}
+.photo{
+    height: 250px;
+    width: 250px;
+}
+img{
+    height: 250px;
+}
+.logo{
+    font-size: 30px;
+    padding: 0 50px 0 50px;
+}
+.links{
+    font-size: 16px;
+}
+}
+@media (max-width:872px) {
+    .dtl{
+    width: 450px;
+}
+.name{
+    font-size: 45px;
+}
+.intro h1{
+font-size: 22px;
+margin-right: 8px;
+}
+.intro span{
+    font-size: 22px;
+}
+.dtl{
+    font-size: 16px;
+}
+.photo{
+    height: 250px;
+    width: 250px;
+}
+img{
+    height: 250px;
+}
+.logo{
+    font-size: 30px;
+    padding: 0 40px 0 40px;
+}
+.links{
+    font-size: 16px;
+}
+}
+@media (max-width:768px){
+label{
+display: block;
+}
+nav ul{
+position: fixed;
+height: 100vh;
+width: 100%;
+background-color: #2c3e50;
+text-align: center;
+top: 80px;
+left: 100%;
+text-align: center;
+transition: all 0.5s;
+}
+nav ul li{
+display: block;
+margin: 50px 0;
+line-height: 30px
+}
+.start{
+    flex-direction: column;
+    justify-content: space-between;
+    height: 700px;
+}
+.links{
+    font-size: 20px;
+}
+#active,.links:hover{
+background: none;
+color: #0082e6;
+transition: 0.5;
+}
+input:checked ~ ul{
+    left: 0%;
+}
+ .dtl{
+width: 500px;
+}
+.name{
+    font-size: 45px;
+}
+.intro h1{
+font-size: 25px;
+margin-right: 8px;
+}
+.intro span{
+    font-size: 25px;
+}
+.dtl{
+    font-size: 16px;
+}
+.photo{
+    height: 250px;
+    width: 250px;
+}
+img{
+    height: 250px;
+}
+.logo{
+    font-size: 40px;
+    padding: 0 20px 0 20px;
+}   
+.social{
+    display: none;
+}
+#social2{
+    display: block;
+    margin-top: none;
+}
+}
+@media (max-width:576px) {
+.logo{
+    font-size:35px;
+}
+    .dtl{
+width: 300px;
+}
+.name{
+    font-size: 35px;
+}
+.intro h1{
+font-size: 16px;
+margin-right: 8px;
+}
+.intro span{
+    font-size: 16px;
+}
+.photo{
+    margin-top: 10px;
+    height: 200px;
+    width: 200px;
+}
+.img{
+    height: 200px;
+}
+#social2{
+    display: block;
+    margin-top: none;
+
+}
+}
