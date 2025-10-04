@@ -4,6 +4,8 @@
     font-family: sans-serif;
     text-decoration: none;
     list-style: none;
+    -webkit-tap-highlight-color: transparent;
+    color: white;
 }
 nav{
     height: 80px;
@@ -171,7 +173,6 @@ img{
 #social2{
     display: none; 
     margin: 50px 0 20px 0;
-
 }
 #social2 ul{
     display: flex;
